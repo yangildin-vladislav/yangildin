@@ -13,6 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
+
 namespace YangildinAutoService
 {
     /// <summary>
@@ -42,6 +43,11 @@ namespace YangildinAutoService
             {
                 BtnBack.Visibility = Visibility.Hidden;
             }
+        }
+
+        private void TboxSearch_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
         }
     }
 }
