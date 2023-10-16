@@ -1,0 +1,49 @@
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.csproj.AssemblyReference.cache
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.csproj.SuggestedBindingRedirects.cache
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\MainWindow.g.cs
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\App.g.cs
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService_MarkupCompile.cache
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService_MarkupCompile.lref
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\bin\Debug\YangildinAutoService.exe.config
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\bin\Debug\YangildinAutoService.exe
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\bin\Debug\YangildinAutoService.pdb
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\MainWindow.baml
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.g.resources
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.Properties.Resources.resources
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.csproj.GenerateResource.cache
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.csproj.CoreCompileInputs.cache
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.exe
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.pdb
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\AddEditPage.g.cs
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\ServicePage.g.cs
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\AddEditPage.baml
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\ServicePage.baml
+D:\3 курс\исп 31\янгильдин\3 лаба 2\YangildinAutoService\obj\Debug\App.baml
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\bin\Debug\YangildinAutoService.exe.config
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\bin\Debug\YangildinAutoService.exe
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\bin\Debug\YangildinAutoService.pdb
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\bin\Debug\EntityFramework.dll
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\bin\Debug\EntityFramework.xml
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.csproj.AssemblyReference.cache
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.csproj.SuggestedBindingRedirects.cache
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\AddEditPage.g.cs
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\MainWindow.g.cs
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\ServicePage.g.cs
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\App.g.cs
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService_Content.g.cs
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService_MarkupCompile.cache
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService_MarkupCompile.lref
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\App.baml
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\AddEditPage.baml
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\MainWindow.baml
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\ServicePage.baml
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.g.resources
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.Properties.Resources.resources
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.csproj.GenerateResource.cache
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.csproj.CopyComplete
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.exe
+C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.pdb
