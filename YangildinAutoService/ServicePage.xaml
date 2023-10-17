@@ -45,6 +45,8 @@
                          Width="300" FontSize="20" Checked="RButtonDown_Checked"
                          Name="RButtonDown"></RadioButton>
         </StackPanel>
+        
+        
 
         <ListView Grid.Row="2" Name="ServiceListView" >
             <ListView.ItemTemplate>
