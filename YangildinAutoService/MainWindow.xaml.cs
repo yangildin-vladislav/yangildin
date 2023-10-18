@@ -44,10 +44,9 @@ namespace YangildinAutoService
                 BtnBack.Visibility = Visibility.Hidden;
             }
         }
+        
+        
 
-        private void TboxSearch_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
+        
     }
 }

@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:YangildinAutoService"
         mc:Ignorable="d"
-        Title="YangildinAutoService" Height="450" Width="800" FontFamily="Tw Cen MT" Icon="/obj/service_logo.png">
+        Title="Автосервис Янгильдин" Height="450" Width="800" FontFamily="Tw Cen MT" Icon="/obj/service_logo.png">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="75" />
@@ -20,8 +20,8 @@
         <Image Source="/obj/service_logo.png"  HorizontalAlignment="Left"></Image>
         <TextBlock FontSize="30" HorizontalAlignment="Center" VerticalAlignment="Center" Text="Услуги Автосервиса"/>
         <Frame Grid.Row="1" Name="MainFrame" NavigationUIVisibility="Hidden" ></Frame>
-        <Button Content="Назад" Name="BtnBack" Height="30" Margin="615,21,10,24"
-                Click="BtnBack_Click"/>
+        <Button Content="Назад" Name="BtnBack" HorizontalAlignment="Right"
+                Click="BtnBack_Click"></Button>
 
 
 

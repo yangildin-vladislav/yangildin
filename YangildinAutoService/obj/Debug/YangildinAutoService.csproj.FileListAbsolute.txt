@@ -45,6 +45,5 @@ C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Р
 C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.csproj.CopyComplete
 C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.exe
 C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\YangildinAutoService.pdb
-C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\obj\MainWindow.baml
 C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\MainWindow.g.cs
 C:\Users\Lenovo\Documents\И - DeskBar\ALL\C++ Програмирование\Разработка програмных модулей\3 лаба 2\YangildinAutoService\obj\Debug\MainWindow.baml

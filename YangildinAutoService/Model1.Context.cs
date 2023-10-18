@@ -12,30 +12,38 @@ namespace YangildinAutoService
     using System;
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
-
+    
     public partial class yangildin_autoserviceEntities : DbContext
     {
+        /*
         private static yangildin_autoserviceEntities _context;
 
-        public static yangildin_autoserviceEntities GetContext()
+        public static yangildin_autoserviceEntities GetContex()
         {
-            if (_context == null)
-            {
+            if(_context == null)
                 _context = new yangildin_autoserviceEntities();
-            }
             return _context;
         }
+        */
 
+        private static yangildin_autoserviceEntities _context;
+
+        public static yangildin_autoserviceEntities GetContex()
+        {
+            if (_context == null)
+                _context = new yangildin_autoserviceEntities();
+            return _context;
+        }
         public yangildin_autoserviceEntities()
             : base("name=yangildin_autoserviceEntities")
         {
         }
-
+    
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
         }
-
+    
         public virtual DbSet<Client> Client { get; set; }
         public virtual DbSet<ClientService> ClientService { get; set; }
         public virtual DbSet<DocumentByService> DocumentByService { get; set; }
