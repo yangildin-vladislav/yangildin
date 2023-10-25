@@ -88,19 +88,11 @@ namespace YangildinAutoService
                 int EndHour = sum / 60;
                 int EndMin = sum % 60;
 
+                
+                EndHour = EndHour % 24;
 
-                if (EndHour >= 24)
-                {
-                    MessageBox.Show("Время окончания услуги не может быть больше 24 часов");
-                    TBStart.Text = "";
-                    TBEnd.Text = "";
-                    return;
-                }
-
-                TBEnd.Text = EndHour.ToString("D2") + ":" + EndMin.ToString("D2");  
+                TBEnd.Text = EndHour.ToString("D2") + ":" + EndMin.ToString("D2");
             }
-
-
         }
 
         private void TBStart_PreviewTextInput(object sender, TextCompositionEventArgs e)
@@ -113,10 +105,6 @@ namespace YangildinAutoService
             Regex regex = new Regex("[^0-9.:]+"); 
             return !regex.IsMatch(text);
         }
-
-
-
-
 
     }
 }

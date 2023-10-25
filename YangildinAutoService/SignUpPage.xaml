@@ -40,11 +40,13 @@
                   Name="ComboClient" HorizontalAlignment="Left">
             <ComboBox.ItemTemplate>
                 <DataTemplate>
-                    <StackPanel>
-                        <Label Content="{Binding Firstname}"></Label>
-                        <Label Content="{Binding Lastname}"></Label>
-                        <Label Content="{Binding Patronymic}"></Label>
-                    </StackPanel>
+                    <TextBlock FontSize="14">
+                        <Run Text="{Binding Firstname}"/>
+                        <Run Text=" " />
+                        <Run Text="{Binding Patronymic}"/>
+                        <Run Text=" " />
+                        <Run Text="{Binding Lastname}"/>
+                    </TextBlock>
                 </DataTemplate>
             </ComboBox.ItemTemplate>
         </ComboBox>
