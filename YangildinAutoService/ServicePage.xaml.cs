@@ -27,15 +27,15 @@ namespace YangildinAutoService
         public ServicePage()
         {
             InitializeComponent();
-            var currentServices = yangildin_autoserviceEntities.GetContex().Service.ToList();
-            ServiceListView.ItemsSource = currentServices;  
+            var currentServices = yangildin_autoserviceEntities.GetContext().Service.ToList();
+            ServiceListView.ItemsSource = currentServices;
             ComboType.SelectedIndex = 0;
             UpdateServices();
 
         }
         private void UpdateServices()
         {
-            var currentServices = yangildin_autoserviceEntities.GetContex().Service.ToList();
+            var currentServices = yangildin_autoserviceEntities.GetContext().Service.ToList();
 
             if (ComboType.SelectedIndex == 0)
             {
@@ -119,8 +119,8 @@ namespace YangildinAutoService
         {
             if (Visibility == Visibility.Visible)
             {
-                yangildin_autoserviceEntities.GetContex().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
-                ServiceListView.ItemsSource = yangildin_autoserviceEntities.GetContex().Service.ToList();
+                yangildin_autoserviceEntities.GetContext().ChangeTracker.Entries().ToList().ForEach(p => p.Reload());
+                ServiceListView.ItemsSource = yangildin_autoserviceEntities.GetContext().Service.ToList();
 
             }
             UpdateServices();
@@ -130,7 +130,7 @@ namespace YangildinAutoService
         {
             var currentService = (sender as Button).DataContext as Service;
 
-            var currentClientServices = yangildin_autoserviceEntities.GetContex().ClientService.ToList();
+            var currentClientServices = yangildin_autoserviceEntities.GetContext().ClientService.ToList();
             currentClientServices = currentClientServices.Where(p => p.ServiceID == currentService.ID).ToList();
 
             if (currentClientServices.Count != 0)
@@ -143,9 +143,9 @@ namespace YangildinAutoService
                 {
                     try
                     {
-                        yangildin_autoserviceEntities.GetContex().Service.Remove(currentService);
-                        yangildin_autoserviceEntities.GetContex().SaveChanges();
-                        ServiceListView.ItemsSource = yangildin_autoserviceEntities.GetContex().Service.ToList();
+                        yangildin_autoserviceEntities.GetContext().Service.Remove(currentService);
+                        yangildin_autoserviceEntities.GetContext().SaveChanges();
+                        ServiceListView.ItemsSource = yangildin_autoserviceEntities.GetContext().Service.ToList();
                         UpdateServices();
                     }
                     catch (Exception ex)
@@ -258,6 +258,11 @@ namespace YangildinAutoService
         private void RightDirButton_Click(object sender, RoutedEventArgs e)
         {
             ChangePage(2, null);
+        }
+
+        private void SignUpButton_Click(object sender, RoutedEventArgs e)
+        {
+            Manager.MainFrame.Navigate(new SignUpPage((sender as Button).DataContext as Service));
         }
     }
 }

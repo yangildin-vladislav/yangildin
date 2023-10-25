@@ -15,9 +15,7 @@ using System.Windows.Shapes;
 
 namespace YangildinAutoService
 {
-    /// <summary>
-    /// Логика взаимодействия для AddEditPage.xaml
-    /// </summary>
+   
     public partial class AddEditPage : Page
     {
         private Service _currentService = new Service();
@@ -35,7 +33,28 @@ namespace YangildinAutoService
         private void SaveButton_Click(object sender, RoutedEventArgs e)
         {
             StringBuilder errors = new StringBuilder();
-            var context = yangildin_autoserviceEntities.GetContex();
+
+            if (string.IsNullOrWhiteSpace(_currentService.Title))
+            {
+                errors.AppendLine("Укажите название услуги");
+            }
+
+            if (_currentService.Cost == 0)
+            {
+                errors.AppendLine("Укажите стоимость услуги");
+            }
+
+            if (_currentService.Duration == 0)
+                errors.AppendLine("Укажите длительность услуги");
+            if (_currentService.Duration > 240)
+                errors.AppendLine("Длительность не может быть боьше 240 минут");
+            if (_currentService.Duration < 0)
+                errors.AppendLine("Длительность не может быть менее 0");
+
+
+            if (_currentService.Discount < 0 || _currentService.Discount > 100)
+                errors.AppendLine("Укажите скидку от 0 до 100");
+            var context = yangildin_autoserviceEntities.GetContext();
 
             if (string.IsNullOrWhiteSpace(_currentService.Title))
             {
@@ -44,7 +63,7 @@ namespace YangildinAutoService
             
             else if (context.Service.Any(service => service.Title == _currentService.Title && service.ID != _currentService.ID))
             {
-                errors.AppendLine("Услуга с таким названием уже существует");
+                errors.AppendLine("Уже существует такая услуга");
             }
             if (_currentService.Cost == 0)
             {
@@ -55,7 +74,7 @@ namespace YangildinAutoService
             {
                 errors.AppendLine("Укажите скидку");
             }
-            if (string.IsNullOrWhiteSpace(_currentService.Duration))
+            if (_currentService.Duration == 0)
             {
                 errors.AppendLine("Укажите длительность услуги");
             }
@@ -83,7 +102,7 @@ namespace YangildinAutoService
             }
         }
 
-
+        
 
 
     }

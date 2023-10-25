@@ -15,30 +15,18 @@ namespace YangildinAutoService
     
     public partial class yangildin_autoserviceEntities : DbContext
     {
-        /*
-        private static yangildin_autoserviceEntities _context;
-
-        public static yangildin_autoserviceEntities GetContex()
-        {
-            if(_context == null)
-                _context = new yangildin_autoserviceEntities();
-            return _context;
-        }
-        */
-
-        private static yangildin_autoserviceEntities _context;
-
-        public static yangildin_autoserviceEntities GetContex()
-        {
-            if (_context == null)
-                _context = new yangildin_autoserviceEntities();
-            return _context;
-        }
         public yangildin_autoserviceEntities()
             : base("name=yangildin_autoserviceEntities")
         {
         }
-    
+        private static yangildin_autoserviceEntities _context;
+        public static yangildin_autoserviceEntities GetContext()
+        {
+            if (_context == null)
+                _context = new yangildin_autoserviceEntities();
+
+            return _context;
+        }
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
